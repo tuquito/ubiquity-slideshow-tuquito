@@ -1,3 +1,11 @@
+ubiquity-slideshow-tuquito (4.1-1) maverick; urgency=low
+
+  * new translations
+  * new screenshots
+  * new text
+
+ -- Mario Colque <mario@tuquito.org.ar>  Thu, 14 Oct 2010 23:15:23 -0300
+
 ubiquity-slideshow-tuquito (4.1) maverick; urgency=low
 
   * New slides
