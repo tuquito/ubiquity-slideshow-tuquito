@@ -1,24 +1,25 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Spanish translations for PACKAGE package
+# Traducciones al español para el paquete PACKAGE
+# Copyright (C) 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Mario Colque <mario@tuquito.org.ar>, 2010.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2010-10-14 22:17-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2010-10-14 22:20-0300\n"
+"Last-Translator: Mario Colque <mario@tuquito.org.ar>\n"
+"Language-Team: Argentinian\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: ENCODING"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/chat.html:1
 msgid "Stay connected"
-msgstr ""
+msgstr "Manténgase conectado"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/chat.html:7
@@ -27,6 +28,9 @@ msgid ""
 "favorite social networks. Tuquito provides all you need to interact with "
 "Twitter, Facebook, MSN, ICQ, GoogleTalk, AIM, Yahoo and many other networks."
 msgstr ""
+"Manténgase cerca de sus amigos y contactos, por correo electrónico, messenger o "
+"en sus redes sociales favoritas. Tuquito le provee todo lo que necesita para "
+"interactuar con Twitter, Facebook, MSN, ICQ, GoogleTalk, AIM, Yahoo y muchas otras redes."
 
 #. type: Content of: <div><div><div><h2>
 #: slideshows/tuquito/slides/chat.html:11
@@ -36,7 +40,7 @@ msgstr ""
 #: slideshows/tuquito/slides/video.html:11
 #: slideshows/tuquito/slides/web.html:8
 msgid "Included software"
-msgstr ""
+msgstr "Programas incluidos"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/chat.html:15
@@ -61,7 +65,7 @@ msgstr ""
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/customize.html:1
 msgid "Customize your desktop"
-msgstr ""
+msgstr "Personalice su escritorio"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/customize.html:7
@@ -70,25 +74,32 @@ msgid ""
 "hand a backup thanks to Garfio. You can also create their own custom "
 "distributions based on Tuquito."
 msgstr ""
+"Siéntase seguro de modificar cualquier aspecto de Tuquito, siempre puede "
+"tener a mano una copia de seguridad gracias a Garfio. También puede crear "
+"sus propias distribuciones personalizadas basadas en Tuquito."
 
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/help.html:1
 msgid "Find help"
-msgstr ""
+msgstr "Busque ayuda"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/help.html:7
 msgid ""
 "If you're curious about something or if you're facing a problem, simply ask "
-"around. It comes with a user guide, a community website, a collection of "
+"around. Tuquito comes with a user guide, a community website, a collection of "
 "tutorials, active forums and chat rooms and one of the most dynamic "
 "communities on the Internet."
 msgstr ""
+"Si tiene curiosidad acerca de algo o si se enfrenta a un problema, simplemente "
+"pregunte. Tuquito viene con una guía de usuarios, un sitio web de la comunidad, "
+"una gran colección de tutoriales, foros activos y salas de chat y una de las "
+"comunidades más dinámicas de Internet."
 
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/music.html:1
 msgid "Listen to music and CDs"
-msgstr ""
+msgstr "Escuchar música y CDs"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/music.html:8
@@ -97,6 +108,9 @@ msgid ""
 "your audio CDs. Listen to podcasts and online radios. Discover new artists "
 "on Last.fm, Jamendo and Magnatune."
 msgstr ""
+"Disfrute su música con Banshee. Conecte su reproductor de MP3 o extraiga las "
+"canciones de sus CDs de audio. Escuche podcasts y radios en línea. Descubra "
+"nuevos artistas en Last.fm, Jamendo y Magnatune."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/music.html:16
@@ -106,12 +120,12 @@ msgstr ""
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/music.html:20
 msgid "Audio codecs"
-msgstr ""
+msgstr "Codecs de audio"
 
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/office.html:1
 msgid "Be productive"
-msgstr ""
+msgstr "Sea productivo"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/office.html:7
@@ -121,6 +135,10 @@ msgid ""
 "documents, emails, or web pages to PDF. Send and receive files with Giver on "
 "the local network. Share printers or access them remotely."
 msgstr ""
+"Use OpenOffice.org para crear documentos, hojas de cálculo y presentaciones "
+"profesionales que son completamente compatibles con Microsoft Office. Guarde "
+"documentos, emails, o páginas web en PDF. Envíe y reciba archivos con Giver en "
+"la red local. Comparta impresoras o acceda a ellas remotamente."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/office.html:15
@@ -140,7 +158,7 @@ msgstr ""
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/photos.html:1
 msgid "Manage your photos"
-msgstr ""
+msgstr "Organice sus fotos"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/photos.html:7
@@ -149,6 +167,9 @@ msgid ""
 "albums to CD, to the Web, or to online services such as Flickr or PicasaWeb "
 "to share them with friends and family."
 msgstr ""
+"Organice, disfrute y comparta sus fotos con Shotwell o Picasa. Exporte sus "
+"albums a CD, a la web, o a servicios en línea como Flickr o PicasaWeb para compartirlos "
+"con sus amigos y familia."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/photos.html:15
@@ -158,7 +179,7 @@ msgstr ""
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/software.html:1
 msgid "Install software"
-msgstr ""
+msgstr "Instale programas"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/software.html:7
@@ -166,12 +187,14 @@ msgid ""
 "Browse through 30,000 free applications from the Software Manager. Enjoy "
 "screenshots and user reviews. Install software with one click of the mouse."
 msgstr ""
+"Navegue a través de 30.000 aplicaciones gratuitas desde el Gestor de Programas. "
+"Disfrute de imágenes y comentarios de los usuarios. Instale programas con un solo click."
 
 #. type: Content of: <div><div><div><h2>
 #: slideshows/tuquito/slides/software.html:11
 #: slideshows/tuquito/slides/windows.html:11
 msgid "Featured software"
-msgstr ""
+msgstr "Programas destacados"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/software.html:15
@@ -201,7 +224,7 @@ msgstr ""
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/updates.html:1
 msgid "Keep your system up to date"
-msgstr ""
+msgstr "Mantenga su sistema al día"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/updates.html:7
@@ -209,16 +232,18 @@ msgid ""
 "Receive fixes and security updates all in one place, for the entire system, "
 "including the software you install."
 msgstr ""
+"Reciba correcciones y actualizaciones de seguridad en un solo lugar, para todo "
+"el sistema, incluyendo los programas que usted instaló."
 
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/video.html:1
 msgid "Watch videos and DVDs"
-msgstr ""
+msgstr "Vea vídeos y DVDs"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/video.html:7
 msgid "Insert a DVD and enjoy a movie. Watch high-definition videos with VLC."
-msgstr ""
+msgstr "Inserte un DVD y disfrute una película. Vea vídeos en alta definición con VLC."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/video.html:15
@@ -233,12 +258,12 @@ msgstr ""
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/video.html:23
 msgid "Video codecs"
-msgstr ""
+msgstr "Codecs de vídeo"
 
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/web.html:1
 msgid "Browse the web"
-msgstr ""
+msgstr "Navegue en la web"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/web.html:5
@@ -246,6 +271,8 @@ msgid ""
 "Be fast and safe on the web with Mozilla Firefox and Chromium. Enjoy Java, "
 "Flash and multimedia content."
 msgstr ""
+"Sea rápido y seguro en la web con Mozilla Firefox y Chromium. Disfrute de "
+"Java, Flash y contenidos multimedia."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/web.html:12
@@ -265,7 +292,7 @@ msgstr ""
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/welcome.html:1
 msgid "Welcome to Tuquito"
-msgstr ""
+msgstr "Bienvenido/a a Tuquito"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/welcome.html:7
@@ -273,11 +300,13 @@ msgid ""
 "Welcome and thank you for choosing Tuquito. This slideshow will show you "
 "around while the system is being installed on your computer."
 msgstr ""
+"Bienvenido/a y gracias por elegir Tuquito. Esta presentación le mostrará "
+"todo mientras el sistema se está instalando en su ordenador."
 
 #. type: Content of: <div><h1>
 #: slideshows/tuquito/slides/windows.html:1
 msgid "Run Windows software"
-msgstr ""
+msgstr "Corra programas de Windows"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/windows.html:7
@@ -285,6 +314,8 @@ msgid ""
 "Install Wine and run Windows software in Tuquito. Or install Virtualbox, and "
 "run Windows itself within Tuquito."
 msgstr ""
+"Instale Wine y corra programas de Windows en Tuquito. O instale Virtualbox, "
+"y corra Windows dentro de Tuquito."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/windows.html:15
