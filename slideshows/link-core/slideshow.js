@@ -7,7 +7,7 @@ Javascript component of ubiquity-slideshow global to all variations.
 * Manages slideshow controls, if requested via parameters.
 
 Assumptions are made about the design of the html document this is inside of.
-Please see slides/ubuntu/index.html for an example of this script in use.
+Please see slides/tuquito/index.html for an example of this script in use.
 
 
 Dependencies (please load these first):
@@ -18,7 +18,7 @@ directory.js (note that this file does not exist yet, but will when the build sc
 
 /* Pass parameters by creating a global SLIDESHOW_OPTIONS object, containing
    any options described at <http://jquery.malsup.com/cycle/options.html>
-   
+
    The default callback for cycle.next also checks an extra autopause parameter,
    which will pause the slideshow when it reaches the end (but doesn't stop it)
 */
@@ -27,18 +27,16 @@ var slideshow;
 
 $(document).ready(function() {
 	slideshow = $('#slideshow');
-	
+
 	var slideshow_options = {
 		fx:'scrollHorz',
-		timeout:45000,
+		timeout:40000,
 		speed:500,
 		nowrap:false,
 		autopause:true,
 		manualTrump:false,
 	};
-	
-	
-	
+
 	var instance_options = [];
 	parameters = window.location.hash.slice(window.location.hash.indexOf('#') + 1).split('?');
 	for(var i = 0; i < parameters.length; i++)
@@ -47,37 +45,33 @@ $(document).ready(function() {
 		instance_options.push(hash[0]);
 		instance_options[hash[0]] = hash[1];
 	}
-	
+
 	if ( instance_options.indexOf('locale') > -1 )
 		setLocale(instance_options['locale']);
-	
+
 	if ( instance_options.indexOf('rtl') > -1 )
 		$(document.body).addClass('rtl');
-	
+
 	loadSlides();
-	
-	
-	
+
 	var debug_controls;
 	if ( instance_options.indexOf('controls') > -1 )
 		debug_controls = $('#debug-controls');
 	var controls = $('#controls') || debug_controls;
-	
+
 	if (debug_controls) {
 		debug_controls.show();
 	}
-	
+
 	if (controls) {
 		/* we assume #controls contains
 		   #current-slide, #prev-slide and #next-slide */
 		/*slideshow.options.loop = true;*/ /* TODO: USE CYCLE.NOWRAP */
-		
+
 		slideshow_options.prev = $('#prev-slide');
 		slideshow_options.next = $('#next-slide');
 	}
-	
-	
-	
+
 	slideshow_options.after = function(curr, next, opts) {
 		var index = opts.currSlide;
 		/* pause at last slide if requested in options */
@@ -85,7 +79,7 @@ $(document).ready(function() {
 			slideshow.cycle('pause'); /* slides can still be advanced manually */
 		}
 	}
-	
+
 	$.extend(slideshow_options, window.SLIDESHOW_OPTIONS);
 	slideshow.cycle(slideshow_options);
 });
@@ -94,15 +88,15 @@ $(document).ready(function() {
 function setLocale(locale) {
 	slideshow.find('div>a').each(function() {
 		var new_url = get_translated_url($(this).attr('href'), locale);
-		
+
 		if ( new_url != null ) {
 			$(this).attr('href', new_url);
 		}
 	})
-	
+
 	function get_translated_url(slide_name, locale) {
 		var translated_url = null
-		
+
 		if ( translation_exists(slide_name, locale) ) {
 			translated_url = "./loc."+locale+"/"+slide_name;
 		} else {
@@ -113,10 +107,10 @@ function setLocale(locale) {
 			else if ( before_dot != null && translation_exists(slide_name, before_dot) )
 				translated_url = "./loc."+before_dot+"/"+slide_name;
 		}
-		
+
 		return translated_url;
 	}
-	
+
 	function translation_exists(slide_name, locale) {
 		result = false;
 		try {
@@ -133,11 +127,9 @@ function setLocale(locale) {
 	}
 }
 
-
 function loadSlides() {
 	slideshow.children('div').each(function() {
 		url = $(this).children('a').attr('href');
 		$(this).load(url);
 	});
 }
-
