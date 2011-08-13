@@ -6,10 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-10-31 12:14-0300\n"
+"POT-Creation-Date: 2011-08-13 08:17-0300\n"
 "PO-Revision-Date: 2010-10-31 12:14-0300\n"
 "Last-Translator: Carlos Felipe de Araújo <carlosfelipe@tuquito.org.ar>\n"
 "Language-Team: Portuguese\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,11 +55,6 @@ msgstr ""
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/chat.html:23
-msgid "Gwibber"
-msgstr ""
-
-#. type: Content of: <div><div><div><ul><li><p>
-#: slideshows/tuquito/slides/chat.html:27
 msgid "Xchat"
 msgstr ""
 
@@ -131,19 +127,19 @@ msgstr "Seja produtivo"
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/office.html:7
 msgid ""
-"Use OpenOffice.org to create professional documents, spreadsheets and "
+"Use LibreOffice to create professional documents, spreadsheets and "
 "presentations that are fully compatible with Microsoft Office. Archive "
 "documents, emails, or web pages to PDF. Send and receive files with Giver on "
 "the local network. Share printers or access them remotely."
 msgstr ""
-"Use OpenOffice.org para criar documentos, folhas de cálculo e apresentações "
+"Use LibreOffice para criar documentos, folhas de cálculo e apresentações "
 "profissionais que são completamente compatíveis com Microsoft Office. Guarde "
 "documentos, e-mails ou páginas web em PDF. Envie e receba arquivos com Giver "
 "na rede local. Compartilhe impressoras ou acesse-as remotamente."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/office.html:15
-msgid "OpenOffice.org"
+msgid "LibreOffice"
 msgstr ""
 
 #. type: Content of: <div><div><div><ul><li><p>
@@ -174,7 +170,7 @@ msgstr ""
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/photos.html:15
-msgid "Shotwell"
+msgid "gThumb"
 msgstr ""
 
 #. type: Content of: <div><h1>
@@ -271,10 +267,10 @@ msgstr "Navegue na web"
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/web.html:5
 msgid ""
-"Be fast and safe on the web with Mozilla Firefox and Chromium. Enjoy Java, "
-"Flash and multimedia content."
+"Be fast and safe on the web with Mozilla Firefox and Chrome/Chromium. Enjoy "
+"Java, Flash and multimedia content."
 msgstr ""
-"Seja rápido e seguro na web com Mozilla Firefox e Chromium. Desfrute de "
+"Seja rápido e seguro na web com Mozilla Firefox e Chrome/Chromium. Desfrute de "
 "Java, Flash e conteúdos de multimídia."
 
 #. type: Content of: <div><div><div><ul><li><p>
