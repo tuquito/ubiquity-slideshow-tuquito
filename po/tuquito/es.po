@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-08-13 08:17-0300\n"
+"POT-Creation-Date: 2011-08-14 01:23-0300\n"
 "PO-Revision-Date: 2010-10-14 22:20-0300\n"
 "Last-Translator: Mario Colque <mario@tuquito.org.ar>\n"
 "Language-Team: Argentinian\n"
@@ -160,11 +160,11 @@ msgstr "Organice sus fotos"
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/photos.html:7
 msgid ""
-"Organize, enjoy and share your photos with Shotwell or Picasa. Export your "
+"Organize, enjoy and share your photos with gThumb or Picasa. Export your "
 "albums to CD, to the Web, or to online services such as Flickr or PicasaWeb "
 "to share them with friends and family."
 msgstr ""
-"Organice, disfrute y comparta sus fotos con Shotwell o Picasa. Exporte sus "
+"Organice, disfrute y comparta sus fotos con gThumb o Picasa. Exporte sus "
 "albums a CD, a la web, o a servicios en línea como Flickr o PicasaWeb para "
 "compartirlos con sus amigos y familia."
 
@@ -271,8 +271,8 @@ msgid ""
 "Be fast and safe on the web with Mozilla Firefox and Chrome/Chromium. Enjoy "
 "Java, Flash and multimedia content."
 msgstr ""
-"Sea rápido y seguro en la web con Mozilla Firefox y Chrome/Chromium. Disfrute de "
-"Java, Flash y contenidos multimedia."
+"Sea rápido y seguro en la web con Mozilla Firefox y Chrome/Chromium. "
+"Disfrute de Java, Flash y contenidos multimedia."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/tuquito/slides/web.html:12

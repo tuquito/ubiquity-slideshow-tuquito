@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-08-13 08:17-0300\n"
+"POT-Creation-Date: 2011-08-14 01:23-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,7 +141,7 @@ msgstr ""
 #. type: Content of: <div><div><div><p>
 #: slideshows/tuquito/slides/photos.html:7
 msgid ""
-"Organize, enjoy and share your photos with Shotwell or Picasa. Export your "
+"Organize, enjoy and share your photos with gThumb or Picasa. Export your "
 "albums to CD, to the Web, or to online services such as Flickr or PicasaWeb "
 "to share them with friends and family."
 msgstr ""
